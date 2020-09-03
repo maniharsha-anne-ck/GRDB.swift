@@ -1,7 +1,7 @@
 #ifndef grdb_config_h
 #define grdb_config_h
 
-#include <sqlite3.h>
+#include "sqlite3.h"
 
 typedef void(*errorLogCallback)(void *pArg, int iErrCode, const char *zMsg);
 
